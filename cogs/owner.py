@@ -13,6 +13,7 @@ class Debug(commands.Cog):
 
     # SLASH COMMAND: PING
     @app_commands.command(name="ping", description="Replies with 'pong'")
+    @commands.is_owner()
     async def ping(self, inter: Interaction) -> None:
         await inter.response.send_message("pong", ephemeral=True)
 
@@ -25,6 +26,7 @@ class Admin(commands.Cog):
     @app_commands.command(
         name="sync_commands", description="Updates the bot's command tree"
     )
+    @commands.is_owner()
     async def sync_commands(self, inter: Interaction) -> None:
         if inter.user.id == 142080839214301184:
             await inter.response.send_message("Syncing...", ephemeral=True)
