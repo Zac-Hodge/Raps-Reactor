@@ -128,7 +128,7 @@ class Reactor(commands.Cog):
     async def react_past(
         self, inter: Interaction, emojis: str, number_of_messages: int = 32
     ) -> None:
-        """Reacts to every message in this channel between your own reactions of :arrow_down: :arrow_up:
+        """Reacts to every message in this channel between your own reactions of :arrow_up: :arrow_down:
 
         Parameters
         ----------
