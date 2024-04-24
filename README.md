@@ -7,7 +7,7 @@ A minimal permissions Discord bot for reacting to new or past messages.
 
 `/react_now`: Reacts to every message in this channel or thread with the given emojis until /react is used again with no arguments
 s
-`/react_past`: Reacts to every message in this channel between your own reactions of :arrow_up: :arrow_down:
+`/react_past`: Reacts to every message in this channel between your own reactions of :arrow_up: and :arrow_down: (pointing inwards)
 
 `/react_undo`: Removes the most recently applied emojis
 
