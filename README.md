@@ -1,18 +1,18 @@
 # Rap's Reactor 
 A minimal permissions Discord bot for reacting to new or past messages.
 
-![Alt text](imgs/avatar/Rap's%20Reactor%20Avatar.png "Rap's Reactor Avatar")
+![Alt text](imgs/avatar/Rap's%20Reactor%20Avatar@0,5x.png "Rap's Reactor Avatar")
 
 ## Commands
 
-`/react_now`
+`/react_now`: Reacts to every message in this channel or thread with the given emojis until /react is used again with no arguments
 
-`/react_past`
+`/react_past`: Reacts to every message in this channel between your own reactions of :arrow_down: :arrow_up:
 
-`/react_undo`
+`/react_undo`: Removes the most recently applied emojis
 
-`/react_remove`
+`/react_remove`: Removes all of the bot's recent reactions in the current channel or thread (default: 10 messages)
 
-`/sync_commands`
+`/sync_commands`: Updates the bot's command tree
 
-`/ping`
+`/ping`: Replies with 'pong'
