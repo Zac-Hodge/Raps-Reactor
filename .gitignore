@@ -1,0 +1,7 @@
+/.env
+/.venv
+/.vscode
+/LEGACY
+/notes.txt
+**/__pycache__
+*.psd
