@@ -10,5 +10,3 @@ A minimal permissions Discord bot for reacting to new or past messages.
 `/remove`: Removes all of the bot's recent reactions in the current channel or thread (default: 10 messages)
 
 `/sync_commands`: Updates the bot's command tree
-
-`/ping`: Replies with 'pong'

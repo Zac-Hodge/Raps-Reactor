@@ -11,11 +11,11 @@ class Debug(commands.Cog):
     def __init__(self, bot: Bot):
         self.bot = bot
 
-    # SLASH COMMAND: PING
-    @app_commands.command(name="ping", description="Replies with 'pong'")
-    @commands.is_owner()
-    async def ping(self, inter: Interaction) -> None:
-        await inter.response.send_message("pong", ephemeral=True)
+    # # SLASH COMMAND: PING
+    # @app_commands.command(name="ping", description="Replies with 'pong'")
+    # @commands.is_owner()
+    # async def ping(self, inter: Interaction) -> None:
+    #     await inter.response.send_message("pong", ephemeral=True)
 
 
 class Admin(commands.Cog):
